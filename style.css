@@ -168,26 +168,80 @@ a {
 .monitor-1 {
     border-radius: 2%;
     background-color: white;
-
 }
 
 .monitor-2 {
     border-radius: 2%;
     background-color: white;
-
 }
 
 .monitor-3 {
     border-radius: 2%;
     background-color: white;
-
 }
 
 .monitor-4 {
     border-radius: 2%;
     background-color: white;
-
 }
+
+
+/* Notebooks html */
+
+.section-notebooks-html {
+    background-color: #EEEEEE;
+    margin-top: 11em;
+    margin-bottom: 2.5em;
+}
+
+.notebook-1 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.notebook-2 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.notebook-3 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.notebook-4 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+/* Placas de video html */
+
+.section-placas-html {
+    background-color: #EEEEEE;
+    margin-top: 11em;
+    margin-bottom: 2.5em;
+}
+
+.placas-1 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.placas-2 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.placas-3 {
+    border-radius: 2%;
+    background-color: white;
+}
+
+.placas-4 {
+    border-radius: 2%;
+    background-color: white;
+}
+
 
 
 /* Footer */
