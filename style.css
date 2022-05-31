@@ -201,22 +201,43 @@ a {
 .monitor-1 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .monitor-2 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .monitor-3 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .monitor-4 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
+
+.monitor-1:hover {
+    transform: scale(1.05);
+}
+
+.monitor-2:hover {
+    transform: scale(1.05);    
+}
+
+.monitor-3:hover {
+    transform: scale(1.05);   
+}
+
+.monitor-4:hover {
+    transform: scale(1.05); 
+}
+
 
 /* Fin monitores html */
 
@@ -232,21 +253,41 @@ a {
 .notebook-1 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .notebook-2 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .notebook-3 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .notebook-4 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
+}
+
+.notebook-1:hover {
+    transform: scale(1.05);
+}
+
+.notebook-2:hover {
+    transform: scale(1.05);
+}
+
+.notebook-3:hover {
+    transform: scale(1.05);
+}
+
+.notebook-4:hover {
+    transform: scale(1.05);
 }
 
 /* Fin notebooks html */
@@ -263,21 +304,41 @@ a {
 .placas-1 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .placas-2 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .placas-3 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
 }
 
 .placas-4 {
     border-radius: 2%;
     background-color: white;
+    transition: all 0.5s;
+}
+
+.placas-1:hover {
+    transform: scale(1.05);  
+}
+
+.placas-2:hover {
+    transform: scale(1.05);  
+}
+
+.placas-3:hover {
+    transform: scale(1.05);  
+}
+
+.placas-4:hover {
+    transform: scale(1.05);  
 }
 
 /* Fin placas html */
