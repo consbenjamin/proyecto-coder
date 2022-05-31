@@ -86,9 +86,11 @@ a {
 
 .grid-container {
     display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas:
         "offer offer-1 offer-2 offer-3 offer-4";
+    flex-wrap: wrap;
     padding-top: 3em;
     padding-right: 2em;
     padding-bottom: 3em;
@@ -96,6 +98,9 @@ a {
     gap: 1em;
 }
 
+.grid-item {
+    width: 18%;
+}
 
 .offer {
     grid-area: offer;
@@ -252,7 +257,7 @@ a {
 /* Contacto html */
 
 .section-contacto {
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .container-contact {
@@ -277,7 +282,7 @@ a {
 /* Sobre nosotrso html */
 
 .section-sobrenosotros {
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .container-sobrenosotros {
