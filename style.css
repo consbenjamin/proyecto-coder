@@ -21,6 +21,7 @@ a {
 
 .section-destacados {
     background-color: #EEEEEE;
+    padding-bottom: 2em;
 }
 
 .h2 {
@@ -78,8 +79,7 @@ a {
 
 .section-monitores-html {
     background-color: #EEEEEE;
-    margin-top: 11em;
-    margin-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 .monitor-1 {
@@ -130,8 +130,7 @@ a {
 
 .section-notebooks-html {
     background-color: #EEEEEE;
-    margin-top: 11em;
-    margin-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 .notebook-1 {
@@ -181,8 +180,7 @@ a {
 
 .section-placas-html {
     background-color: #EEEEEE;
-    margin-top: 11em;
-    margin-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 .placas-1 {
@@ -230,12 +228,18 @@ a {
 /* Contacto html */
 
 .section-contacto {
-    margin-top: 10%;
+    background-color: #EEEEEE;
 }
 
-.container-contact {
-    border: 1px solid black;
+.h2-contacto {
+    padding-top: 0.5em;
+    padding-left: 1em;
 }
+
+.form {
+    padding: 1em 3em 2em 2em;
+}
+
 
 .first {
     padding-bottom: 2em;
@@ -252,15 +256,15 @@ a {
     padding-left: 3em;
 }
 
-/* Sobre nosotrso html */
+/* Sobre nosotros html */
 
 .section-sobrenosotros {
-    margin-top: 10%;
+    background-color: #EEEEEE;
 }
 
 .container-sobrenosotros {
-    border: 1px solid black;
     padding-bottom: 2em;
+    padding-right: 1em;
 }
 
 .paragraph-sobrenosotros {
@@ -273,7 +277,6 @@ a {
 /* Footer */
 
 .footer {
-    margin-top: 1em;
     background-color: #37373f;
     position: relative;
     width: 100%;

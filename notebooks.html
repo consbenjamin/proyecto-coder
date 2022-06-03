@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
     <title>Notebooks</title>
@@ -12,63 +15,53 @@
 
 <body>
     <!-- Header -->
-    <header class="main-header">
-        <div class="areas">
-            <div class="area-logo">
-                <a href="index.html"><img class="main-logo" src="Images/Index/logo-pccomponentes.png" alt=""></a>
+    <header class="">
+        <nav class="navbar bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img class="main-logo" src="Images/Index/logo-pccomponentes.png" alt="">
+            </a>
+            <div class="container d-flex justify-content-around">
+                <a href="notebooks.html">Notebooks</a>
+                <a href="monitores.html">Monitores</a>
+                <a href="placas-de-video.html">Placas de video</a>
             </div>
-            <div class="area-search">
-                <input class="input" type="text" placeholder="Buscar">
-            </div>
-            <div>
-                <p class="paragraph-header">Bienvenido/a</p>
-            </div>
-            <div class="area-items">
-                <img class="img-cart" src="https://icongr.am/clarity/shopping-cart.svg?size=128&color=ffffff"
-                    alt="shop-cart">
-            </div>
-        </div>
-        <nav>
-            <ul class="nav-container">
-                <li class="nav-item"><a href="notebooks.html">Notebooks</a></li>
-                <li class="nav-item"><a href="placas-de-video.html">Placas de video</a></li>
-                <li class="nav-item"><a href="monitores.html">Monitores</a></li>
-            </ul>
         </nav>
     </header>
     <!-- Fin header -->
 
     <!-- Main -->
     <section class="section-notebooks-html">
-        <h2 class="h2">Notebooks</h2>
-        <div class="grid-container">
-            <div class="grid-item notebook-1">
-                <a href=""> <img class="bestseller-images" src="Images/Notebooks/notebook 1.jpg" alt="Notebook-1">
+        <div class="container">
+            <h2 class="h2">Notebooks</h2>
+            <div class="row">
+                <div class="col-3 notebook-1">
+                    <img class="w-100" src="Images/Notebooks/notebook 1.jpg" alt="Notebook-1">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$40990</p>
-                </a>
-            </div>
-            <div class="grid-item notebook-2">
-                <a href=""> <img class="bestseller-images" src="Images/Notebooks/Notebook 2.jpg" alt="Notebook-2">
+                    </a>
+                </div>
+                <div class="col-3 notebook-2">
+                    <img class="w-100" src="Images/Notebooks/Notebook 2.jpg" alt="Notebook-2">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$44990</p>
-                </a>
-            </div>
-            <div class="grid-item notebook-3">
-                <a href=""> <img class="bestseller-images" src="Images/Notebooks/Notebook 3.jpg" alt="Notebook-3">
+                    </a>
+                </div>
+                <div class="col-3 notebook-3">
+                    <img class="w-100" src="Images/Notebooks/Notebook 3.jpg" alt="Notebook-3">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$51990</p>
-                </a>
-            </div>
-            <div class="grid-item notebook-4">
-                <a href=""> <img class="bestseller-images" src="Images/Notebooks/Notebook 4.jpg" alt="Notebook-4">
+                    </a>
+                </div>
+                <div class="col-3 notebook-4">
+                    <img class="w-100" src="Images/Notebooks/Notebook 4.jpg" alt="Notebook-4">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$59990</p>
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
