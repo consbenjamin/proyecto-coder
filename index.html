@@ -16,20 +16,37 @@
 
 <body>
     <!-- Header -->
-    <header class="">
-        <nav class="navbar bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img class="main-logo" src="Images/Index/logo-pccomponentes.png" alt="">
             </a>
-            <div class="container d-flex justify-content-around">
-                <a href="notebooks.html">Notebooks</a>
-                <a href="monitores.html">Monitores</a>
-                <a href="placas-de-video.html">Placas de video</a>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fin button -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="" href="notebooks.html">Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="monitores.html">Monitores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="placas-de-video.html">Placas de video</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
+    <!-- Fin header -->
     <!-- Main -->
     <main>
+        <!-- Carousel -->
         <section>
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -55,65 +72,76 @@
                 </button>
             </div>
         </section>
+        <!-- Fin carousel -->
         <section class="section-destacados">
-            <div class="container">
-                <h2 class="h2">⚡Destacados⚡</h2>
-                <div class="row">
-                    <div class="offer-1 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/oferta 1.png" alt="">
+            <h2 class="h2">⚡Destacados⚡</h2>
+            <div class="grid-container">
+                <div class="grid-item offer">
+                    <img class="bestseller-images item-zero" src="Images/Index/img-destacados.png" alt="">
+                </div>
+                <div class="grid-item offer-1">
+                    <a href=""> <img class="bestseller-images item-one" src="Images/Index/oferta 1.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 85.000,00</p>
-                    </div>
-                    <div class="offer-2 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/oferta 2.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-2">
+                    <a href=""> <img class="bestseller-images item-two" src="Images/Index/oferta 2.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 60.000,00</p>
-                    </div>
-                    <div class="offer-3 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/oferta 3.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-3">
+                    <a href=""> <img class="bestseller-images item-three" src="Images/Index/oferta 3.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 45.000,00</p>
-                    </div>
-                    <div class="offer-4 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/oferta 4.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-4">
+                    <a href=""> <img class="bestseller-images item-four" src="Images/Index/oferta 4.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 90.000,00</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
-        <section class="section-destacados">
-            <div class="container">
-                <h2 class="h2">Elegi tu notebook</h2>
-                <div class="row">
-                    <div class="offer-1 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/notebook-1.png" alt="">
+        <section class="section-notebooks">
+            <h2 class="h2">Elegi tu notebook</h2>
+            <div class="grid-container">
+                <div class="grid-item offer">
+                    <img class="bestseller-images item-zero" src="Images/Index/section-notebooks.png" alt="">
+                </div>
+                <div class="grid-item offer-1">
+                    <a href=""> <img class="bestseller-images item-one" src="Images/Index/notebook-1.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 85.000,00</p>
-                    </div>
-                    <div class="offer-2 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/notebook-2.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-2">
+                    <a href=""> <img class="bestseller-images item-two" src="Images/Index/notebook-2.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 60.000,00</p>
-                    </div>
-                    <div class="offer-3 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/notebook-3.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-3">
+                    <a href=""> <img class="bestseller-images item-three" src="Images/Index/notebook-3.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 45.000,00</p>
-                    </div>
-                    <div class="offer-4 col-3 bg-light">
-                        <img class="w-100" src="Images/Index/notebook-4.png" alt="">
+                    </a>
+                </div>
+                <div class="grid-item offer-4">
+                    <a href=""> <img class="bestseller-images item-four" src="Images/Index/notebook-4.png" alt="">
                         <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                             unde debitis </p>
                         <p class="paragraph-price">$ 90.000,00</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -146,6 +174,7 @@
                     class="maps"></iframe>
             </div>
         </section>
+        <!-- Socials -->
         <section class="socials">
             <a href="https://www.facebook.com/">
                 <img class="social-media" src="Images/Index/logo-facebook.svg" alt="Redes">
@@ -159,6 +188,7 @@
         </section>
     </footer>
     <!-- Fin footer -->
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>

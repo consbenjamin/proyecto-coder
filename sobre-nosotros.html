@@ -15,20 +15,34 @@
 
 <body>
     <!-- Header -->
-    <header class="">
-        <nav class="navbar bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img class="main-logo" src="Images/Index/logo-pccomponentes.png" alt="">
             </a>
-            <div class="container d-flex justify-content-around">
-                <a href="notebooks.html">Notebooks</a>
-                <a href="monitores.html">Monitores</a>
-                <a href="placas-de-video.html">Placas de video</a>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fin button -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="" href="notebooks.html">Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="monitores.html">Monitores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="placas-de-video.html">Placas de video</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
     <!-- Fin header -->
-
     <!-- Main -->
     <section class="section-sobrenosotros">
         <div class="container-sobrenosotros">
@@ -39,9 +53,15 @@
                     trabajo y las ganas de superarnos día a día con la esperanza de crear una estructura sólida que nos
                     permitiera hacer frente a los distintos desafíos que se nos podían presentar a lo largo del tiempo.
                     Somos lo que querés, cuando querés, donde querés. lore
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam quam impedit itaque numquam similique corporis eius, beatae ipsam commodi exercitationem, id eligendi consectetur dolore amet nobis, neque asperiores dignissimos.
-                    Ad, odio id labore ea voluptates ipsa accusamus mollitia repudiandae totam! Nesciunt expedita similique nostrum eos veniam ex laborum vitae enim fuga ut, at fugiat rem quasi. Accusantium, excepturi laboriosam?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium distinctio iure commodi. Explicabo officia quasi voluptatum voluptas expedita? Harum reiciendis dolores eum quisquam iste ipsam quia quidem hic accusantium distinctio!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae magnam quam impedit itaque numquam
+                    similique corporis eius, beatae ipsam commodi exercitationem, id eligendi consectetur dolore amet
+                    nobis, neque asperiores dignissimos.
+                    Ad, odio id labore ea voluptates ipsa accusamus mollitia repudiandae totam! Nesciunt expedita
+                    similique nostrum eos veniam ex laborum vitae enim fuga ut, at fugiat rem quasi. Accusantium,
+                    excepturi laboriosam?
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium distinctio iure commodi.
+                    Explicabo officia quasi voluptatum voluptas expedita? Harum reiciendis dolores eum quisquam iste
+                    ipsam quia quidem hic accusantium distinctio!
                 </p>
         </div>
     </section>
@@ -86,9 +106,10 @@
         </section>
     </footer>
     <!-- Fin footer -->
-
-
-
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

@@ -15,57 +15,69 @@
 
 <body>
     <!-- Header -->
-    <header class="">
-        <nav class="navbar bg-dark">
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark">
             <a class="navbar-brand" href="index.html">
                 <img class="main-logo" src="Images/Index/logo-pccomponentes.png" alt="">
             </a>
-            <div class="container d-flex justify-content-around">
-                <a href="notebooks.html">Notebooks</a>
-                <a href="monitores.html">Monitores</a>
-                <a href="placas-de-video.html">Placas de video</a>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Fin button -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 container d-flex justify-content-around">
+                    <li class="nav-item">
+                        <a class="" href="notebooks.html">Notebooks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="monitores.html">Monitores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="" href="placas-de-video.html">Placas de video</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
     <!-- Fin header -->
-
     <!-- Main -->
     <section class="section-placas-html">
-        <div class="container">
-            <h2 class="h2">Placas de Video</h2>
-            <div class="row">
-                <div class="col-3 placas-1">
-                    <img class="w-100" src="Images/Placas de Video/placa de video 1.png"
+        <h2 class="h2-sections">Placas de Video</h2>
+        <div class="grid-container">
+            <div class="grid-item placas-1">
+                <a href=""> <img class="bestseller-images" src="Images/Placas de Video/placa de video 1.png"
                         alt="Placa-de-video-1">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$126000</p>
-                    </a>
-                </div>
-                <div class="col-3 placas-2">
-                    <img class="w-100" src="Images/Placas de Video/placa de video 2.jpg"
+                </a>
+            </div>
+            <div class="grid-item placas-2">
+                <a href=""> <img class="bestseller-images" src="Images/Placas de Video/placa de video 2.jpg"
                         alt="Placa-de-video-2">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$114000</p>
-                    </a>
-                </div>
-                <div class="col-3 placas-3">
-                    <img class="w-100" src="Images/Placas de Video/placa de video 3.jpg"
+                </a>
+            </div>
+            <div class="grid-item placas-3">
+                <a href=""> <img class="bestseller-images" src="Images/Placas de Video/placa de video 3.jpg"
                         alt="Placa-de-video-3">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$100000</p>
-                    </a>
-                </div>
-                <div class="col-3 placas-4">
-                    <img class="w-100" src="Images/Placas de Video/placa de video 4.jpg"
+                </a>
+            </div>
+            <div class="grid-item placas-4">
+                <a href=""> <img class="bestseller-images" src="Images/Placas de Video/placa de video 4.jpg"
                         alt="Placa-de-video-4">
                     <p class="paragraph-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
                         unde debitis </p>
                     <p class="paragraph-price">$70000</p>
-                    </a>
-                </div>
+                </a>
             </div>
         </div>
     </section>
@@ -110,6 +122,10 @@
         </section>
     </footer>
     <!-- Fin footer -->
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 
 </body>
 
