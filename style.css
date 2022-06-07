@@ -308,6 +308,7 @@ a {
 
 .section-contacto {
     background-color: #EEEEEE;
+    padding-bottom: 2em;
 }
 
 .h2-contacto {
@@ -351,6 +352,8 @@ a {
     font-weight: bold;
     padding-top: 1em;
     padding-left: 3em;
+    padding-right: 1em;
+    
 }
 
 /* Footer */
