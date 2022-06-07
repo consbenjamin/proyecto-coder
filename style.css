@@ -12,6 +12,10 @@ a {
     font-weight: bold;
 }
 
+.h2 {
+    padding: 1em 0 1em 3em;
+}
+
 /* Index */
 .areas {
     display: flex;
@@ -30,13 +34,8 @@ a {
     padding-bottom: 2em;
 }
 
-.h2 {
-    padding: 1em 0 1em 3em;
-}
-
 .h2-sections {
     padding: 1em 0 1em 8.5em;
-
 }
 
 .grid-container {
@@ -97,7 +96,7 @@ a {
 
 .paragraph-description {
     color: black;
-    padding: 1em;
+    padding: 0 0 0 1em;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -105,7 +104,6 @@ a {
 .paragraph-price {
     color: #009bdb;
     font-weight: bold;
-    padding-top: 1em;
     padding-left: 1em;
 }
 
@@ -151,7 +149,6 @@ a {
 .section-notebooks {
     background-color: #EEEEEE;
     margin-top: 4%;
-    margin-bottom: 4%;
 }
 
 /* Fin Index */
@@ -371,7 +368,6 @@ a {
     justify-content: space-around;
     list-style-type: none;
     padding-top: 1em;
-    padding-bottom: 1em;
     background-color: rgb(4, 4, 8);
 }
 
@@ -419,3 +415,57 @@ a {
 /* Fin footer */
 
 /* Medias */
+
+/* MEDIA QUERIE DESKTOP */
+@media screen and (min-width: 1024px) {
+    h2 {
+        padding: 1em 0 1em 0em;        
+    }
+}
+/* MEDIA QUERIE TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    p {
+      font-size: 0.75em;  
+    }
+    .h2 {
+        padding: 1em 0 1em 1em;
+    }
+}
+/* MEDIA QUERIE MOBILE */
+@media screen and (max-width: 767px) {
+    p {
+       font-size: 0.5em; 
+    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: "offer-1"
+                             "offer-2"
+                             "offer-3"
+                             "offer-4";
+        display: flex;
+        justify-content: center;
+        gap: 3em;
+    }
+    .grid-item {
+        width: 90%;
+    }
+    .offer {
+        display: none;
+    }
+    .paragraph-description {
+       font-size: 1em;
+    }
+    .paragraph-price {
+        font-size: 1em;
+    }
+    .paragraph-menu-footer{
+        font-size: 0.70em;
+    }
+    .footer-info {
+        padding-left: 1em;
+        font-size: 0.75em;
+    }
+    .maps {
+        padding-right: 1em;
+    }
+}

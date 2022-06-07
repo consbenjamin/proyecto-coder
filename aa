@@ -1,0 +1,16 @@
+       <section class="footer-areas">
+            <div class="d-flex justify-content-around">
+                <div class="footer-info">
+                    <h2 class="h2-footer">Atencion al Cliente:</h2>
+                    <p class="p-footer">8888-888-8888</p>
+                    <p class="p-footer">consultas@pc-componentes.com</p>
+                    <p class="p-footer">Lun. a Vie. de 9 a 19h. Sab de 10 a 14h.</p>
+                </div>
+                <div class="footer-maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3583947747666!2d-64.17577808425654!3d-31.404250302808617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987364ff373f%3A0x24ec248c76288fa6!2sVenex%C2%AE%20Pick-up%20Point!5e0!3m2!1ses!2sar!4v1651030061899!5m2!1ses!2sar"
+                        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        class="maps"></iframe>
+                </div>
+            </div>
+        </section>
