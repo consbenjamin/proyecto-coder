@@ -11,7 +11,7 @@ a {
   font-weight: bold; }
 
 .h2 {
-  padding: 1em 0 1em 3em; }
+  padding: 1em 0 1em 3em; } 
 
 header .main-logo {
   width: 12em;
@@ -146,9 +146,9 @@ footer {
   main .grid-container {
     display: grid;
     grid-template-areas: "offer-1"
-                         "offer-2"
-                         "offer-3"
-                         "offer-4";
+ "offer-2"
+ "offer-3"
+ "offer-4";
     display: flex;
     justify-content: center;
     gap: 3em; }
