@@ -1,3 +1,6 @@
+//Variables
+$color-principal:#EEEEEE;
+
 * {
     padding: 0;
     margin: 0;
@@ -26,7 +29,7 @@ header {
 
 main {
     .section-destacados {
-        background-color: #EEEEEE;
+        background-color: $color-principal;
         padding-bottom: 2em;
     }
 
@@ -125,7 +128,7 @@ main {
     }
 
     .section-notebooks {
-        background-color: #EEEEEE;
+        background-color: $color-principal;
         margin-top: 4%;
     }
 }
@@ -175,6 +178,79 @@ footer {
         .social-media {
             width: 3em;
             height: 3em;
+        }
+    }
+}
+
+/* MEDIA QUERIE DESKTOP */
+@media screen and (min-width: 1024px) {
+    h2 {
+        padding: 1em 0 1em 0em;
+    }
+}
+
+/* MEDIA QUERIE TABLET */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    p {
+        font-size: 0.75em;
+    }
+
+    .h2 {
+        padding: 1em 0 1em 1em;
+    }
+}
+
+/* MEDIA QUERIE MOBILE */
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 0.5em;
+    }
+
+    main {
+        .grid-container {
+            display: grid;
+            grid-template-areas: "offer-1"
+                                 "offer-2"
+                                 "offer-3"
+                                 "offer-4";
+            display: flex;
+            justify-content: center;
+            gap: 3em;
+
+            .grid-item {
+                width: 90%;
+            }
+
+            .offer {
+                display: none;
+            }
+        }
+
+        .paragraph-description {
+            font-size: 1em;
+        }
+
+        .paragraph-price {
+            font-size: 1em;
+        }
+    }
+
+    footer {
+        h2 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: 0.70em;
+        }
+
+        .footer-info {
+            padding-left: 1em;
+            font-size: 0.75em;
+        }
+
+        .maps {
+            padding-right: 1em;
         }
     }
 }
