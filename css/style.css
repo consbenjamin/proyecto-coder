@@ -11,7 +11,7 @@ a {
   font-weight: bold; }
 
 .h2 {
-  padding: 1em 0 1em 3em; } 
+  padding: 1em 0 1em 3em; }
 
 header .main-logo {
   width: 12em;
@@ -127,6 +127,178 @@ footer {
       width: 3em;
       height: 3em; }
 
+.section-monitores-html {
+  background-color: #EEEEEE;
+  padding-bottom: 2em; }
+
+.grid-container {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em; }
+  .grid-container .grid-item {
+    width: 18%; }
+  .grid-container .monitor-1 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .monitor-1:hover {
+    transform: scale(1.05); }
+  .grid-container .monitor-2 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .monitor-2:hover {
+    transform: scale(1.05); }
+  .grid-container .monitor-3 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .monitor-3:hover {
+    transform: scale(1.05); }
+  .grid-container .monitor-4 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .monitor-4:hover {
+    transform: scale(1.05); }
+
+.bestseller-images {
+  width: 100%; }
+
+.paragraph-description {
+  color: black;
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.paragraph-price {
+  color: #009bdb;
+  font-weight: bold;
+  padding-left: 1em; }
+
+.section-notebooks-html {
+  background-color: #EEEEEE;
+  padding-bottom: 2em; }
+
+.grid-container {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em; }
+  .grid-container .grid-item {
+    width: 18%; }
+  .grid-container .notebook-1 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .notebook-1:hover {
+    transform: scale(1.05); }
+  .grid-container .notebook-2 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .notebook-2:hover {
+    transform: scale(1.05); }
+  .grid-container .notebook-3 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .notebook-3:hover {
+    transform: scale(1.05); }
+  .grid-container .notebook-4 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .notebook-4:hover {
+    transform: scale(1.05); }
+
+.section-placas-html {
+  background-color: #EEEEEE;
+  padding-bottom: 2em; }
+
+.grid-container {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em; }
+  .grid-container .grid-item {
+    width: 18%; }
+  .grid-container .placas-1 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .placas-1:hover {
+    transform: scale(1.05); }
+  .grid-container .placas-2 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .placas-2:hover {
+    transform: scale(1.05); }
+  .grid-container .placas-3 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .placas-3:hover {
+    transform: scale(1.05); }
+  .grid-container .placas-4 {
+    border-radius: 2%;
+    background-color: white;
+    transition: all 0.5s; }
+  .grid-container .placas-4:hover {
+    transform: scale(1.05); }
+
+.bestseller-images {
+  width: 100%; }
+
+.paragraph-description {
+  color: black;
+  padding: 0 0 0 1em;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.paragraph-price {
+  color: #009bdb;
+  font-weight: bold;
+  padding-left: 1em; }
+
+.section-contacto {
+  background-color: #EEEEEE;
+  padding-bottom: 2em; }
+  .section-contacto h2 {
+    padding-top: 0.5em;
+    padding-left: 1em; }
+  .section-contacto .form {
+    padding: 1em 3em 2em 2em; }
+
+.section-sobrenosotros {
+  background-color: #EEEEEE; }
+  .section-sobrenosotros .container-sobrenosotros {
+    padding-bottom: 2em;
+    padding-right: 1em; }
+    .section-sobrenosotros .container-sobrenosotros p {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      padding-top: 1em;
+      padding-left: 3em;
+      padding-right: 1em; }
+    .section-sobrenosotros .container-sobrenosotros h2 {
+      padding: 1em 0 1em 3em; }
+
+/* MEDIAS */
 /* MEDIA QUERIE DESKTOP */
 @media screen and (min-width: 1024px) {
   h2 {
@@ -145,10 +317,7 @@ footer {
     font-size: 0.5em; }
   main .grid-container {
     display: grid;
-    grid-template-areas: "offer-1"
- "offer-2"
- "offer-3"
- "offer-4";
+    grid-template-areas: "offer-1" "offer-2" "offer-3" "offer-4";
     display: flex;
     justify-content: center;
     gap: 3em; }

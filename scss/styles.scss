@@ -179,8 +179,269 @@ footer {
             width: 3em;
             height: 3em;
         }
-    } 
+    }
 }
+
+//Monitores
+
+.section-monitores-html {
+    background-color: $color-principal;
+    padding-bottom: 2em;
+}
+
+.grid-container {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        "offer offer-1 offer-2 offer-3 offer-4";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .monitor-1 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .monitor-1:hover {
+        transform: scale(1.05);
+    }
+
+    .monitor-2 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .monitor-2:hover {
+        transform: scale(1.05);
+    }
+
+    .monitor-3 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .monitor-3:hover {
+        transform: scale(1.05);
+    }
+
+    .monitor-4 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .monitor-4:hover {
+        transform: scale(1.05);
+    }
+
+}
+
+.bestseller-images {
+    width: 100%;
+}
+
+.paragraph-description {
+    color: black;
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-price {
+    color: #009bdb;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+//Notebooks
+
+.section-notebooks-html {
+    background-color: $color-principal;
+    padding-bottom: 2em;
+}
+
+.grid-container {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        "offer offer-1 offer-2 offer-3 offer-4";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .notebook-1 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .notebook-1:hover {
+        transform: scale(1.05);
+    }
+
+    .notebook-2 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .notebook-2:hover {
+        transform: scale(1.05);
+    }
+
+    .notebook-3 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .notebook-3:hover {
+        transform: scale(1.05);
+    }
+
+    .notebook-4 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .notebook-4:hover {
+        transform: scale(1.05);
+    }
+}
+
+//Placas-de-video
+
+.section-placas-html {
+    background-color: $color-principal;
+    padding-bottom: 2em;
+}
+
+.grid-container {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+        "offer offer-1 offer-2 offer-3 offer-4";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .placas-1 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .placas-1:hover {
+        transform: scale(1.05);
+    }
+
+    .placas-2 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .placas-2:hover {
+        transform: scale(1.05);
+    }
+
+    .placas-3 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .placas-3:hover {
+        transform: scale(1.05);
+    }
+
+    .placas-4 {
+        border-radius: 2%;
+        background-color: white;
+        transition: all 0.5s;
+    }
+
+    .placas-4:hover {
+        transform: scale(1.05);
+    }
+}
+
+.bestseller-images {
+    width: 100%;
+}
+
+.paragraph-description {
+    color: black;
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-price {
+    color: #009bdb;
+    font-weight: bold;
+    padding-left: 1em;
+}
+
+//Contacto
+
+.section-contacto {
+    background-color: $color-principal;
+    padding-bottom: 2em;
+
+    h2 {
+        padding-top: 0.5em;
+        padding-left: 1em;
+    }
+    .form {
+        padding: 1em 3em 2em 2em;
+    }
+}
+
+//Sobre-nosotros
+
+.section-sobrenosotros {
+    background-color: $color-principal;
+    .container-sobrenosotros {
+        padding-bottom: 2em;
+        padding-right: 1em;
+        p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            padding-top: 1em;
+            padding-left: 3em;
+            padding-right: 1em;    
+        }
+        h2 {
+            padding: 1em 0 1em 3em;        
+        }
+    }
+}
+
+/* MEDIAS */
 
 /* MEDIA QUERIE DESKTOP */
 @media screen and (min-width: 1024px) {
@@ -251,6 +512,6 @@ footer {
 
         .maps {
             padding-right: 1em;
-        }  
+        }
     }
 }
