@@ -1,0 +1,267 @@
+@import "../base/extends";
+@import "../base/mixins";
+@import "../base/listas";
+
+/* INDEX */
+
+main {
+    h2 {
+        padding: 1em 0 1em 3em;
+    }
+
+    .section-destacados {
+        @extend %section;
+    }
+
+    .grid-container {
+        display: grid;
+        display: flex;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+            "offer offer-1 offer-2 offer-3 offer-4";
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 3em 2em 3em 2em;
+        gap: 1em;
+        
+
+        .grid-item {
+            width: 18%;
+        }
+
+        .offer {
+            grid-area: offer;
+        }
+
+        .offer-1 {
+            grid-area: offer-1;
+            @extend %product;
+        }
+
+        .offer-2 {
+            grid-area: offer-2;
+            @extend %product;
+        }
+
+        .offer-3 {
+            grid-area: offer-3;
+            @extend %product;
+        }
+
+        .offer-4 {
+            grid-area: offer-4;
+            @extend %product;
+        }
+
+    }
+
+    .bestseller-images {
+        width: 100%;
+    }
+
+    .item-zero {
+        border-top-left-radius: 3%;
+        height: 100%;
+    }
+
+    .paragraph-description {
+        color: nth($colores, 3);
+        padding: 0 0 0 1em;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .price-button-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .paragraph-price {
+        color: nth($colores, 6);
+        font-weight: bold;
+        padding: 0 0 0 1em;
+    }
+
+    .button {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1em;
+        color: #f6f6f6;
+        padding: 0.5em 1em 0.5em 1em;
+        background-color: nth($colores, 6);
+        border: none;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+
+    .section-notebooks {
+        background-color: nth($colores, 1);
+        margin-top: 4%;
+    }
+}
+
+/* MONITORES */
+
+.section-monitores-html {
+    @extend %section;
+}
+
+.grid-container-monitores {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "monitor-1 monitor-2 monitor-3 monitor-4";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .monitor-1 {
+        grid-area: monitor-1;
+        @extend %product;
+    }
+
+    .monitor-2 {
+        grid-area: monitor-2;
+        @extend %product;
+    }
+
+    .monitor-3 {
+        grid-area: monitor-3;
+        @extend %product;
+    }
+
+    .monitor-4 {
+        grid-area: monitor-4;
+        @extend %product;
+    }
+
+}
+
+/* NOTEBOOKS */
+
+.section-notebooks-html {
+    @extend %section;
+}
+
+.grid-container-notebooks {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "notebook-1 notebook-2 notebook-3 notebook-4";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .notebook-1 {
+        grid-area: notebook-1;
+        @extend %product;
+    }
+
+    .notebook-2 {
+        grid-area: notebook-2;
+        @extend %product;
+    }
+
+    .notebook-3 {
+        grid-area: notebook-3;
+        @extend %product;
+    }
+
+    .notebook-4 {
+        grid-area: notebook-4;
+        @extend %product;
+    }
+
+}
+
+/* PLACAS-DE-VIDEO */
+
+.section-placas-html {
+    @extend %section;
+}
+
+.grid-container-placas {
+    display: grid;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "placas-1 placas-1 placas-1 placas-1";
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3em 2em 3em 2em;
+    gap: 1em;
+
+    .grid-item {
+        width: 18%;
+    }
+
+    .placas-1 {
+        grid-area: placas-1;
+        @extend %product;
+    }
+
+    .placas-2 {
+        grid-area: placas-2;
+        @extend %product;
+    }
+
+    .placas-3 {
+        grid-area: placas-3;
+        @extend %product;
+    }
+
+    .placas-4 {
+        grid-area: placas-4;
+        @extend %product;
+    }
+
+}
+
+/* CONTACTO */
+
+.section-contacto {
+    @extend %section;
+
+    h2 {
+        padding: 0.5em 0 0 1em ;
+    }
+
+    .form {
+        padding: 1em 3em 2em 2em;
+    }
+}
+
+/* SOBRE-NOSOTROS */
+
+.section-sobrenosotros {
+    @extend %section;
+
+    .container-sobrenosotros {
+        padding-bottom: 2em;
+        padding-right: 1em;
+
+        p {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+            padding: 1em 1em 0 3em;
+        }
+
+        h2 {
+            padding: 1em 0 1em 3em;
+        }
+    }
+}

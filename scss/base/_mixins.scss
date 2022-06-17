@@ -1,0 +1,72 @@
+
+@mixin varios($bordes, $transform) {
+    border: $bordes;
+    transform: $transform;
+}
+
+.offer-1:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.offer-2:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.offer-3:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.offer-4:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.monitor-1:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.monitor-2:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.monitor-3:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.monitor-4:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.notebook-1:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.notebook-2:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.notebook-3:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.notebook-4:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.placas-1:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.placas-2:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.placas-3:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+.placas-4:hover {
+    @include varios(1px solid #009bdb,scale(1.05) )
+}
+
+
+

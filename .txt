@@ -1,0 +1,13 @@
+Agregue:<!-- meta description -->
+        <meta name="description" content="Tienda de componentes de PC online con los mejores precios en Argentina con oficinas en Córdoba, tenemos lo que buscas desde la comodidad de tu hogar. Envíos a todo el país. Mejor precio del mercado. Encontra lo último en tecnología al mejor precio. Descubre nuestras increíbles ofertas y promociones en una variedad de productos.">
+        
+        <!-- Keywords -->
+        <meta name="keywords" content="Tienda de Componentes de PC, ecommerce, tienda online, Informatíca, Tecnología.">
+        
+        <!-- Protocolo open graph -->
+        <meta property="og:title" content="Home - PcComponentes - Tienda Online de Informática y Tecnología">
+
+        <!-- Title -->
+        <title> Home - PcComponentes - Tienda Online de Informática y Tecnología </title>
+
+        Además complete los "alt" faltantes.

@@ -1,26 +1,103 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box; }
-
-a {
-  text-decoration: none;
-  color: grey;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  font-weight: bold; }
-
-.h2 {
-  padding: 1em 0 1em 3em; }
-
 header .main-logo {
   width: 12em;
-  padding-left: 1em; }
+  padding-left: 1em;
+}
 
-main .section-destacados {
+.section-sobrenosotros, .section-contacto, .section-placas-html, .section-notebooks-html, .section-monitores-html, main .section-destacados {
   background-color: #EEEEEE;
-  padding-bottom: 2em; }
+  padding-bottom: 2em;
+}
 
+.grid-container-placas .placas-4, .grid-container-placas .placas-3, .grid-container-placas .placas-2, .grid-container-placas .placas-1, .grid-container-notebooks .notebook-4, .grid-container-notebooks .notebook-3, .grid-container-notebooks .notebook-2, .grid-container-notebooks .notebook-1, .grid-container-monitores .monitor-4, .grid-container-monitores .monitor-3, .grid-container-monitores .monitor-2, .grid-container-monitores .monitor-1, main .grid-container .offer-4, main .grid-container .offer-3, main .grid-container .offer-2, main .grid-container .offer-1 {
+  border-radius: 2%;
+  background-color: white;
+  transition: all 0.5s;
+}
+
+.offer-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+/* INDEX */
+main h2 {
+  padding: 1em 0 1em 3em;
+}
 main .grid-container {
   display: grid;
   display: flex;
@@ -29,312 +106,413 @@ main .grid-container {
   flex-wrap: wrap;
   justify-content: center;
   padding: 3em 2em 3em 2em;
-  gap: 1em; }
-  main .grid-container .grid-item {
-    width: 18%; }
-  main .grid-container .offer {
-    grid-area: offer; }
-  main .grid-container .offer-1 {
-    grid-area: offer-1;
-    border-radius: 2%;
-    background-color: white;
-    width: 18%;
-    height: 18%;
-    transition: all 0.5s; }
-  main .grid-container .offer-1:hover {
-    transform: scale(1.05); }
-  main .grid-container .offer-2 {
-    grid-area: offer-2;
-    border-radius: 2%;
-    background-color: white;
-    width: 18%;
-    height: 18%;
-    transition: all 0.5s; }
-  main .grid-container .offer-2:hover {
-    transform: scale(1.05); }
-  main .grid-container .offer-3 {
-    grid-area: offer-3;
-    border-radius: 2%;
-    background-color: white;
-    width: 18%;
-    height: 18%;
-    transition: all 0.5s; }
-  main .grid-container .offer-3:hover {
-    transform: scale(1.05); }
-  main .grid-container .offer-4 {
-    grid-area: offer-4;
-    border-radius: 2%;
-    background-color: white;
-    width: 18%;
-    height: 18%;
-    transition: all 0.5s; }
-  main .grid-container .offer-4:hover {
-    transform: scale(1.05); }
-
+  gap: 1em;
+}
+main .grid-container .grid-item {
+  width: 18%;
+}
+main .grid-container .offer {
+  grid-area: offer;
+}
+main .grid-container .offer-1 {
+  grid-area: offer-1;
+}
+main .grid-container .offer-2 {
+  grid-area: offer-2;
+}
+main .grid-container .offer-3 {
+  grid-area: offer-3;
+}
+main .grid-container .offer-4 {
+  grid-area: offer-4;
+}
 main .bestseller-images {
-  width: 100%; }
-
+  width: 100%;
+}
 main .item-zero {
   border-top-left-radius: 3%;
-  height: 100%; }
-
+  height: 100%;
+}
 main .paragraph-description {
   color: black;
   padding: 0 0 0 1em;
   font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif; }
-
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .price-button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
 main .paragraph-price {
-  color: #009bdb;
+  color: #48b1ff;
   font-weight: bold;
-  padding-left: 1em; }
-
+  padding: 0 0 0 1em;
+}
+main .button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  color: #f6f6f6;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #48b1ff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 main .section-notebooks {
   background-color: #EEEEEE;
-  margin-top: 4%; }
+  margin-top: 4%;
+}
+
+/* MONITORES */
+.grid-container-monitores {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "monitor-1 monitor-2 monitor-3 monitor-4";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em;
+}
+.grid-container-monitores .grid-item {
+  width: 18%;
+}
+.grid-container-monitores .monitor-1 {
+  grid-area: monitor-1;
+}
+.grid-container-monitores .monitor-2 {
+  grid-area: monitor-2;
+}
+.grid-container-monitores .monitor-3 {
+  grid-area: monitor-3;
+}
+.grid-container-monitores .monitor-4 {
+  grid-area: monitor-4;
+}
+
+/* NOTEBOOKS */
+.grid-container-notebooks {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "notebook-1 notebook-2 notebook-3 notebook-4";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em;
+}
+.grid-container-notebooks .grid-item {
+  width: 18%;
+}
+.grid-container-notebooks .notebook-1 {
+  grid-area: notebook-1;
+}
+.grid-container-notebooks .notebook-2 {
+  grid-area: notebook-2;
+}
+.grid-container-notebooks .notebook-3 {
+  grid-area: notebook-3;
+}
+.grid-container-notebooks .notebook-4 {
+  grid-area: notebook-4;
+}
+
+/* PLACAS-DE-VIDEO */
+.grid-container-placas {
+  display: grid;
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "placas-1 placas-1 placas-1 placas-1";
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3em 2em 3em 2em;
+  gap: 1em;
+}
+.grid-container-placas .grid-item {
+  width: 18%;
+}
+.grid-container-placas .placas-1 {
+  grid-area: placas-1;
+}
+.grid-container-placas .placas-2 {
+  grid-area: placas-2;
+}
+.grid-container-placas .placas-3 {
+  grid-area: placas-3;
+}
+.grid-container-placas .placas-4 {
+  grid-area: placas-4;
+}
+
+/* CONTACTO */
+.section-contacto h2 {
+  padding: 0.5em 0 0 1em;
+}
+.section-contacto .form {
+  padding: 1em 3em 2em 2em;
+}
+
+/* SOBRE-NOSOTROS */
+.section-sobrenosotros .container-sobrenosotros {
+  padding-bottom: 2em;
+  padding-right: 1em;
+}
+.section-sobrenosotros .container-sobrenosotros p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 1em 1em 0 3em;
+}
+.section-sobrenosotros .container-sobrenosotros h2 {
+  padding: 1em 0 1em 3em;
+}
 
 footer {
   background-color: #37373f;
   position: relative;
   width: 100%;
-  bottom: 0; }
-  footer ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    padding-top: 1em;
-    background-color: #040408; }
-  footer p {
-    color: white; }
-  footer .footer-areas {
-    display: flex;
-    justify-content: space-around;
-    padding-top: 5em;
-    padding-bottom: 1em; }
-    footer .footer-areas p {
-      color: white;
-      font-size: 1em;
-      padding-top: 1em; }
-  footer h2 {
-    color: white;
-    font-size: 1.5em; }
-  footer .socials {
-    list-style: none;
-    display: flex;
-    justify-content: center; }
-    footer .socials .social-media {
-      width: 3em;
-      height: 3em; }
-
-.section-monitores-html {
-  background-color: #EEEEEE;
-  padding-bottom: 2em; }
-
-.grid-container {
-  display: grid;
+  bottom: 0;
+}
+footer ul {
   display: flex;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 1em;
+  background-color: rgb(4, 4, 8);
+}
+footer p {
+  color: white;
+}
+footer .footer-areas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}
+footer .footer-areas p {
+  color: white;
+  font-size: 1em;
+  padding-top: 1em;
+}
+footer h2 {
+  color: white;
+  font-size: 1.5em;
+}
+footer .socials {
+  list-style: none;
+  display: flex;
   justify-content: center;
-  padding: 3em 2em 3em 2em;
-  gap: 1em; }
-  .grid-container .grid-item {
-    width: 18%; }
-  .grid-container .monitor-1 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .monitor-1:hover {
-    transform: scale(1.05); }
-  .grid-container .monitor-2 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .monitor-2:hover {
-    transform: scale(1.05); }
-  .grid-container .monitor-3 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .monitor-3:hover {
-    transform: scale(1.05); }
-  .grid-container .monitor-4 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .monitor-4:hover {
-    transform: scale(1.05); }
+}
+footer .socials .social-media {
+  width: 3em;
+  height: 3em;
+}
 
-.bestseller-images {
-  width: 100%; }
+main .section-destacados, .section-monitores-html, .section-notebooks-html, .section-placas-html, .section-contacto, .section-sobrenosotros {
+  background-color: #EEEEEE;
+  padding-bottom: 2em;
+}
 
-.paragraph-description {
-  color: black;
-  padding: 0 0 0 1em;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif; }
+main .grid-container .offer-1, main .grid-container .offer-2, main .grid-container .offer-3, main .grid-container .offer-4, .grid-container-monitores .monitor-1, .grid-container-monitores .monitor-2, .grid-container-monitores .monitor-3, .grid-container-monitores .monitor-4, .grid-container-notebooks .notebook-1, .grid-container-notebooks .notebook-2, .grid-container-notebooks .notebook-3, .grid-container-notebooks .notebook-4, .grid-container-placas .placas-1, .grid-container-placas .placas-2, .grid-container-placas .placas-3, .grid-container-placas .placas-4 {
+  border-radius: 2%;
+  background-color: white;
+  transition: all 0.5s;
+}
 
-.paragraph-price {
-  color: #009bdb;
+.offer-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.offer-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.monitor-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.notebook-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-1:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-2:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-3:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+.placas-4:hover {
+  border: 1px solid #009bdb;
+  transform: scale(1.05);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
   font-weight: bold;
-  padding-left: 1em; }
-
-.section-notebooks-html {
-  background-color: #EEEEEE;
-  padding-bottom: 2em; }
-
-.grid-container {
-  display: grid;
-  display: flex;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 3em 2em 3em 2em;
-  gap: 1em; }
-  .grid-container .grid-item {
-    width: 18%; }
-  .grid-container .notebook-1 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .notebook-1:hover {
-    transform: scale(1.05); }
-  .grid-container .notebook-2 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .notebook-2:hover {
-    transform: scale(1.05); }
-  .grid-container .notebook-3 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .notebook-3:hover {
-    transform: scale(1.05); }
-  .grid-container .notebook-4 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .notebook-4:hover {
-    transform: scale(1.05); }
-
-.section-placas-html {
-  background-color: #EEEEEE;
-  padding-bottom: 2em; }
-
-.grid-container {
-  display: grid;
-  display: flex;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-areas: "offer offer-1 offer-2 offer-3 offer-4";
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 3em 2em 3em 2em;
-  gap: 1em; }
-  .grid-container .grid-item {
-    width: 18%; }
-  .grid-container .placas-1 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .placas-1:hover {
-    transform: scale(1.05); }
-  .grid-container .placas-2 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .placas-2:hover {
-    transform: scale(1.05); }
-  .grid-container .placas-3 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .placas-3:hover {
-    transform: scale(1.05); }
-  .grid-container .placas-4 {
-    border-radius: 2%;
-    background-color: white;
-    transition: all 0.5s; }
-  .grid-container .placas-4:hover {
-    transform: scale(1.05); }
-
-.bestseller-images {
-  width: 100%; }
-
-.paragraph-description {
-  color: black;
-  padding: 0 0 0 1em;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif; }
-
-.paragraph-price {
-  color: #009bdb;
-  font-weight: bold;
-  padding-left: 1em; }
-
-.section-contacto {
-  background-color: #EEEEEE;
-  padding-bottom: 2em; }
-  .section-contacto h2 {
-    padding-top: 0.5em;
-    padding-left: 1em; }
-  .section-contacto .form {
-    padding: 1em 3em 2em 2em; }
-
-.section-sobrenosotros {
-  background-color: #EEEEEE; }
-  .section-sobrenosotros .container-sobrenosotros {
-    padding-bottom: 2em;
-    padding-right: 1em; }
-    .section-sobrenosotros .container-sobrenosotros p {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: bold;
-      padding-top: 1em;
-      padding-left: 3em;
-      padding-right: 1em; }
-    .section-sobrenosotros .container-sobrenosotros h2 {
-      padding: 1em 0 1em 3em; }
+}
 
 /* MEDIAS */
 /* MEDIA QUERIE DESKTOP */
 @media screen and (min-width: 1024px) {
   h2 {
-    padding: 1em 0 1em 0em; } }
-
+    padding: 1em 0 1em 0em;
+  }
+}
+/* MEDIA QUERIE LAPTOP */
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  main .button {
+    font-size: 0.8em;
+  }
+  main .paragraph-price {
+    font-size: 0.8em;
+  }
+}
 /* MEDIA QUERIE TABLET */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   p {
-    font-size: 0.75em; }
+    font-size: 0.75em;
+  }
   .h2 {
-    padding: 1em 0 1em 1em; } }
-
+    padding: 1em 0 1em 1em;
+  }
+  main .button {
+    font-size: 0.6em;
+  }
+  main .paragraph-price {
+    font-size: 0.6em;
+  }
+}
 /* MEDIA QUERIE MOBILE */
 @media screen and (max-width: 767px) {
   p {
-    font-size: 0.5em; }
+    font-size: 0.5em;
+  }
   main .grid-container {
     display: grid;
-    grid-template-areas: "offer-1" "offer-2" "offer-3" "offer-4";
+    grid-template-areas: "offer-1" "offer-2" "offer-3" "offer-4";
     display: flex;
     justify-content: center;
-    gap: 3em; }
-    main .grid-container .grid-item {
-      width: 90%; }
-    main .grid-container .offer {
-      display: none; }
+    gap: 3em;
+  }
+  main .grid-container .grid-item {
+    width: 90%;
+  }
+  main .grid-container .offer {
+    display: none;
+  }
+  main .grid-container-monitores {
+    display: grid;
+    grid-template-areas: "monitor-1" "monitor-2" "monitor-3" "monitor-4";
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .grid-container-monitores .grid-item {
+    width: 90%;
+  }
+  main .grid-container-notebooks {
+    display: grid;
+    grid-template-areas: "notebook-1" "notebook-2" "notebook-3" "notebook-4";
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .grid-container-notebooks .grid-item {
+    width: 90%;
+  }
+  main .grid-container-placas {
+    display: grid;
+    grid-template-areas: "placas-1" "placas-2" "placas-3" "placas-4";
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+  }
+  main .grid-container-placas .grid-item {
+    width: 90%;
+  }
   main .paragraph-description {
-    font-size: 1em; }
+    font-size: 1em;
+  }
   main .paragraph-price {
-    font-size: 1em; }
+    font-size: 1em;
+  }
   footer h2 {
-    font-size: 1em; }
+    font-size: 1em;
+  }
   footer p {
-    font-size: 0.70em; }
+    font-size: 0.7em;
+  }
   footer .footer-info {
     padding-left: 1em;
-    font-size: 0.75em; }
+    font-size: 0.75em;
+  }
   footer .maps {
-    padding-right: 1em; } }
+    padding-right: 1em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

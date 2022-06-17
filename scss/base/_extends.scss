@@ -1,0 +1,12 @@
+@import "../base/listas";
+
+%section {
+    background-color: nth($colores, 1);
+    padding-bottom: 2em;
+}
+
+%product {
+    border-radius: 2%;
+    background-color: nth($colores, 2);
+    transition: all 0.5s;
+}
