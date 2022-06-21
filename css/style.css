@@ -406,6 +406,10 @@ a {
   font-weight: bold;
 }
 
+.disclaimer {
+  display: none;
+}
+
 /* MEDIAS */
 /* MEDIA QUERIE DESKTOP */
 @media screen and (min-width: 1024px) {
