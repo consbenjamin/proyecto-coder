@@ -247,13 +247,6 @@ main .section-notebooks {
 }
 
 /* CONTACTO */
-.section-contacto h2 {
-  padding: 0.5em 0 0 1em;
-}
-.section-contacto .form {
-  padding: 1em 3em 2em 2em;
-}
-
 /* SOBRE-NOSOTROS */
 .section-sobrenosotros .container-sobrenosotros {
   padding-bottom: 2em;
