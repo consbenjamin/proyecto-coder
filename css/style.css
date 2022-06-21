@@ -285,27 +285,25 @@ footer ul {
 footer p {
   color: white;
 }
-footer .footer-areas {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 5em;
-  padding-bottom: 1em;
-}
-footer .footer-areas p {
-  color: white;
-  font-size: 1em;
-  padding-top: 1em;
-}
 footer h2 {
   color: white;
   font-size: 1.5em;
 }
-footer .socials {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+footer .button-container {
+  padding-top: 1.5em;
 }
-footer .socials .social-media {
+footer .button-container .button {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1em;
+  color: #f6f6f6;
+  padding: 0.5em 1em 0.5em 1em;
+  background-color: #48b1ff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer .social-media {
   width: 3em;
   height: 3em;
 }

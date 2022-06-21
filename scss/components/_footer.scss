@@ -19,32 +19,30 @@ footer {
         color: nth($colores, 2);;
     }
 
-    .footer-areas {
-        display: flex;
-        justify-content: space-around;
-        padding-top: 5em;
-        padding-bottom: 1em;
-
-        p {
-            color: nth($colores, 2);;
-            font-size: 1em;
-            padding-top: 1em;
-        }
-    }
-
     h2 {
         color: nth($colores, 2);
         font-size: 1.5em;
     }
+    
+    .button-container {
+        padding-top: 1.5em;
 
-    .socials {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-
-        .social-media {
-            width: 3em;
-            height: 3em;
+        .button {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1em;
+            color: #f6f6f6;
+            padding: 0.5em 1em 0.5em 1em;
+            background-color: nth($colores, 6);
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     }
+
+    .social-media {
+        width: 3em;
+        height: 3em;
+    }
+    
 }
