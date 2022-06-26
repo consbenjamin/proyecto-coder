@@ -3,7 +3,7 @@ header .main-logo {
   padding-left: 1em;
 }
 
-.section-sobrenosotros, .section-contacto, .section-placas-html, .section-notebooks-html, .section-monitores-html, main .section-destacados {
+.section-faq, .section-sobrenosotros, .section-contacto, .section-placas-html, .section-notebooks-html, .section-monitores-html, main .section-destacados {
   background-color: #EEEEEE;
   padding-bottom: 2em;
 }
@@ -248,17 +248,26 @@ main .section-notebooks {
 
 /* CONTACTO */
 /* SOBRE-NOSOTROS */
-.section-sobrenosotros .container-sobrenosotros {
-  padding-bottom: 2em;
-  padding-right: 1em;
-}
-.section-sobrenosotros .container-sobrenosotros p {
+.section-sobrenosotros p {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   padding: 1em 1em 0 3em;
 }
-.section-sobrenosotros .container-sobrenosotros h2 {
+.section-sobrenosotros h2 {
   padding: 1em 0 1em 3em;
+}
+
+/* PREGUNTAS-FRECUENTES */
+.section-faq p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding: 1em 1em 0 3em;
+}
+.section-faq h2 {
+  padding: 1em 0 1em 1.5em;
+}
+.section-faq h4 {
+  padding: 0 0 0 2em;
 }
 
 footer {
@@ -301,7 +310,7 @@ footer .social-media {
   height: 3em;
 }
 
-main .section-destacados, .section-monitores-html, .section-notebooks-html, .section-placas-html, .section-contacto, .section-sobrenosotros {
+main .section-destacados, .section-monitores-html, .section-notebooks-html, .section-placas-html, .section-contacto, .section-sobrenosotros, .section-faq {
   background-color: #EEEEEE;
   padding-bottom: 2em;
 }
@@ -494,6 +503,9 @@ a {
   }
   main .paragraph-price {
     font-size: 1em;
+  }
+  main .section-faq h4 {
+    display: none;
   }
   footer h2 {
     font-size: 1em;
